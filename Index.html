@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex"> <!-- Hides from search engines -->
+    <title>Valentine</title>
+    <style>
+        body { 
+            font-family: 'Courier New', monospace; 
+            background: linear-gradient(135deg, #ff6b6b, #feca57); 
+            color: #2c3e50; 
+            padding: 40px; 
+            text-align: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        pre { 
+            background: rgba(255,255,255,0.9); 
+            padding: 30px; 
+            border-radius: 15px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            font-size: 16px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .keyword { color: #e74c3c; font-weight: bold; }
+        .string { color: #27ae60; font-weight: bold; }
+        .heart { font-size: 48px; animation: pulse 1.5s infinite; }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <pre>
+<span class="heart">❤</span>
+
+<span class="keyword">public class</span> Valentine {
+    <span class="keyword">public static void</span> main(String[] args) {
+        String to = <span class="string">"[Their Name]"</span>;  // &lt;- Your special person
+        String from = <span class="string">"[Your Name]"</span>; // &lt;- You
+        
+        System.out.println("Happy Valentine's Day, " + to + "!");
+        System.out.println("You make my heart compile without errors. ❤");
+        System.out.println("Love, " + from);
+    }
+}
+    </pre>
+</body>
+</html>
