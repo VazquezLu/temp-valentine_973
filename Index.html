@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="robots" content="noindex"> <!-- Hides from search engines -->
+    <meta name="robots" content="noindex">
     <title>Valentine</title>
     <style>
         body { 
@@ -22,6 +22,7 @@
             font-size: 16px;
             max-width: 600px;
             margin: 0 auto;
+            text-align: left;
         }
         .keyword { color: #e74c3c; font-weight: bold; }
         .string { color: #27ae60; font-weight: bold; }
@@ -34,13 +35,13 @@
     </style>
 </head>
 <body>
-    <pre>
-<span class="heart">❤</span>
+    <div class="heart">❤</div>
 
+    <pre>
 <span class="keyword">public class</span> Valentine {
     <span class="keyword">public static void</span> main(String[] args) {
-        String to = <span class="string">"[Their Name]"</span>;  // &lt;- Your special person
-        String from = <span class="string">"[Your Name]"</span>; // &lt;- You
+        String to = <span class="string">"[Their Name]"</span>;  // <- Your special person
+        String from = <span class="string">"[Your Name]"</span>; // <- You
         
         System.out.println("Happy Valentine's Day, " + to + "!");
         System.out.println("You make my heart compile without errors. ❤");
