@@ -7,30 +7,31 @@
     <style>
         body { 
             font-family: 'Courier New', monospace; 
-            background: #000000;
-            color: #2c3e50; 
+            background: #ffffff;
+            color: #000000;
             padding: 40px; 
             text-align: center;
             min-height: 100vh;
             margin: 0;
         }
         .heart { 
-            font-size: 220px; 
+            font-size: 120px; 
             animation: pulse 1.5s infinite; 
             margin-bottom: 30px;
             display: block;
-            color: #ff0000; /* Red heart */
-            text-shadow: 0 0 20px rgba(255,0,0,0.5);
+            color: #ff0000;           /* Red heart stays red */
+            text-shadow: 0 0 20px rgba(255,0,0,0.3);  /* Softer glow on white */
         }
         .message {
-            background: rgba(255,255,255,0.9); 
+            background: rgba(255,255,255,1);  /* Solid white (matches JPEG) */
             padding: 40px; 
             border-radius: 20px; 
-            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);  /* Light shadow */
             font-size: 24px;
             max-width: 600px;
             margin: 0 auto;
             line-height: 1.4;
+            color: #000000;           /* Black text */
         }
         @keyframes pulse {
             0% { transform: scale(1); }
@@ -46,7 +47,7 @@
         Happy Valentine's Day !<br>
         Te quiero mucho <3<br><br>
         From: <br>
-        <img src="signature.png" alt="Signature" style="max-height: 80px; max-width: 200px;">
+        <img src="signature.jpeg" alt="Signature" style="max-height: 80px; max-width: 200px;">
     </div>
 </body>
 </html>
